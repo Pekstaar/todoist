@@ -25,7 +25,7 @@ export const useTasks = (selectedProject) => {
         : unsubscribe;
 
         unsubscribe = unsubscribe.onSnapshot(snapshot => {
-            const newTasks = snapshot.docs.map(task=>9{
+            const newTasks = snapshot.docs.map(task=>{
                 
             })
         })
